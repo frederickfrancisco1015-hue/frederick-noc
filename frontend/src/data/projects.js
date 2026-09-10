@@ -117,7 +117,7 @@ export const projects = [
     result:
       'Enabled centralized and manageable Wi-Fi access for school and hospital environments while improving control over user access and bandwidth usage.',
     note:
-      'Production deployment experience. Exact institutions, credentials, and network topology are intentionally omitted.'
+      'Production deployment experience. Universities, Hospitals, Business Establishments.'
   },
   {
     slug: 'fiber-access-network-support',
