@@ -83,11 +83,67 @@ async function submitForm() {
       </div>
     </section>
 
+   <!-- Professional Portfolio Banner -->
+    <section class="border-y border-slate-800 bg-slate-950 py-10 md:py-16">
+      <div class="mx-auto max-w-7xl px-6">
+    
+        <div class="mb-6 text-center">
+          <p
+            class="mb-2 text-sm font-semibold uppercase tracking-widest text-cyan-400"
+          >
+            Network Operations • Infrastructure • Technical Support
+          </p>
+    
+          <h2
+            class="text-2xl font-bold text-white md:text-3xl"
+          >
+            Keeping Networks Reliable and People Connected
+          </h2>
+        </div>
+    
+        <!-- OG Image -->
+        <div
+          class="
+            group
+            overflow-hidden
+            rounded-2xl
+            border border-slate-700
+            bg-slate-900
+            shadow-2xl
+            shadow-cyan-950/30
+          "
+        >
+          <img
+            src="/images/og-preview.jpg"
+            alt="Frederick Francisco - Remote NOC and Network Support"
+            class="
+              w-full
+              transition
+              duration-500
+              group-hover:scale-[1.01]
+            "
+            loading="eager"
+          />
+        </div>
+    
+        <!-- Supporting text -->
+        <div class="mt-6 text-center">
+          <p class="mx-auto max-w-3xl text-slate-400">
+            Over 12 years of experience supporting ISP and network
+            operations, infrastructure, connectivity, monitoring,
+            troubleshooting, and technical deployments.
+          </p>
+        </div>
+    
+      </div>
+    </section>
+    
+
     <section class="mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-2 md:items-center">
       <div>
-        <p class="mb-4 font-semibold uppercase tracking-[0.2em] text-cyan-400">
+       <!-- <p class="mb-4 font-semibold uppercase tracking-[0.2em] text-cyan-400">
           Remote NOC • Network • Infrastructure Support
-        </p>
+        </p> -->
 
         <h1 class="text-5xl font-bold leading-tight md:text-6xl">
           Reliable network support for U.S. businesses and MSPs.
