@@ -1,0 +1,11 @@
+{
+  "name": "frederick-noc-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build"
+  },
+  "dependencies": {
+    "nodemailer": "^6.10.0"
+  }
+}
