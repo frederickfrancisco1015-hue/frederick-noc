@@ -83,7 +83,6 @@ async function submitForm() {
       </div>
     </section>
 
-   <!-- Professional Portfolio Banner -->
     <section class="border-y border-slate-800 bg-slate-950 py-10 md:py-16">
       <div class="mx-auto max-w-7xl px-6">
     
@@ -101,16 +100,18 @@ async function submitForm() {
           </h2>
         </div>
     
-        <!-- OG Image -->
-        <div
+        <RouterLink
+          to="/#projects"
           class="
-            group
+            group block
             overflow-hidden
             rounded-2xl
             border border-slate-700
             bg-slate-900
             shadow-2xl
             shadow-cyan-950/30
+            transition
+            hover:border-cyan-400/50
           "
         >
           <img
@@ -122,9 +123,29 @@ async function submitForm() {
               duration-500
               group-hover:scale-[1.01]
             "
-            loading="eager"
           />
-        </div>
+              <div class="mt-6 flex justify-center">
+              <RouterLink
+                to="/#projects"
+                class="
+                  inline-flex items-center gap-2
+                  rounded-lg
+                  border border-cyan-400/40
+                  px-5 py-3
+                  font-semibold
+                  text-cyan-400
+                  transition
+                  hover:bg-cyan-400
+                  hover:text-slate-950
+                "
+              >
+                Explore My Network Projects
+    
+                <span>→</span>
+              </RouterLink>
+            </div>
+        </RouterLink>
+    
     
         <!-- Supporting text -->
         <div class="mt-6 text-center">
